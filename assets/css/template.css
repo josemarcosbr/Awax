@@ -21,6 +21,9 @@ header {
     margin: auto;
     padding: 15px;
 }
+
+/* Logo area */
+
 .logo{
     width: 100px;
 }
@@ -29,6 +32,9 @@ header {
     color: #b28756;
     font-size: 70px;
 }
+
+/* Menu area */
+
 .menu {
     flex: 1;
     display: flex;
@@ -61,7 +67,7 @@ header {
     border-bottom: 5.5px solid #b28756;
     color: #fff;
   
-/* Slide */
+/* Banner\Slide Section */
 
 }
 .button {
@@ -185,7 +191,7 @@ header {
 
 
 
-/* About Us area */
+/* About us Section */
 
 .section-aboutus {
     display: flex;
@@ -209,7 +215,7 @@ header {
     box-shadow: 0px 5px 10px #000 ;
 }
 
-/* Services area */
+/* Services Section */
 
 .section-services {
     display: flex;
@@ -237,7 +243,7 @@ header {
     color: #999;
 }
 
-/* Projects area*/
+/* Projects Section */
 
 .section-projects {
     display: flex;
@@ -321,7 +327,7 @@ header {
     display: flex;
 }
 
-/* Team area*/
+/* Team Section */
  
 .bg-team {
     background-image: url('../images/bg.jpg');
@@ -415,7 +421,7 @@ header {
     background-color: #b28756;
 }
 
-/* Clients area */
+/* Clients Section */
 
 .section-clients {
     overflow: hidden;
@@ -499,7 +505,7 @@ header {
     background-color: #b28756;
 }
 
-/* Trademarks area */
+/* Trademarks Section */
 
 .section-trademarks {
     border-top: 1px solid #CFCFCF;
@@ -522,6 +528,9 @@ header {
     display: block;
     margin: auto;    
 }
+
+/* Price Section */
+
 .bg-price {
     background-color: #EDEDED;
     
@@ -577,7 +586,7 @@ header {
     background-color: #b28756  
 }
 
-/* Premium area */
+/* Premium Section */
 
 .premium {
     box-shadow: 0px -1px 5px #d2d2d2;
@@ -649,7 +658,7 @@ header {
     background-color: #b28756;
 }
 
-/*Some facts area*/
+/* Some facts Section */
 
 .section-some-facts {
     display: flex;
@@ -685,7 +694,7 @@ header {
     color: #999;
 }
 
-/* Share area */
+/* Share Section */
 
 .share-bg {
     padding-top: 20px;
@@ -757,6 +766,8 @@ header {
     height: 14px;
 }
 
+/* Contact us Section */
+
 .section-contact {
     max-width: 540px;
     margin: auto;
@@ -788,4 +799,45 @@ header {
     height: 113px;
     resize: none;
     padding-top: 10px;
+}
+
+/* Map Section */
+
+.section-map {
+    background-image: url('../../media/map.png');
+    background-size: cover;
+    background-position: center;
+    padding-top: 36px;
+    padding-bottom: 36px;
+}
+.section-map .section-body{
+    width: 1000vw;
+    max-width: 1140px;
+    margin: auto;
+}
+.section-map--address-card {
+    width: 100%;
+    max-width: 540px;
+    height: 343px;
+    background-color: #fff;
+    padding: 40px;
+}
+.section-map--address-card--line {
+    display: flex;
+    align-items: center;
+    margin-top: 14px;
+    font-size: 12px;
+    color: #808080;
+}
+.section-map--address-card-line-img {
+    display: inline-flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    width: 35px;
+    height: 35px;
+    background-color: #ccc;
+    border-radius: 17.5px;
+    margin-right: 18px;
 }
