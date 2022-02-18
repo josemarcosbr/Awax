@@ -80,7 +80,9 @@ header {
     text-decoration: none;
     padding: 15px 50px;
     margin-top: 43px;
+    border: none;
     border-radius: 20px;
+    cursor: pointer;
 }
 .banner {
     height: calc(100vh - 100px);
@@ -781,12 +783,13 @@ header {
 .section-contact textarea {
     width:100%;
     height:40px;
+    border: none;
+    border-bottom: 2px solid #aeaeae;
 }
 .section-contact--fistline input,
 .section-contact input,
 .section-contact textarea {
-    border: none;
-    border-bottom: 2px solid #aeaeae;
+    
     outline:0;
     text-transform: uppercase;
     margin-top: 30px;
@@ -840,4 +843,81 @@ header {
     background-color: #ccc;
     border-radius: 17.5px;
     margin-right: 18px;
+}
+
+/* Footer Section */
+
+.footer {
+
+    padding-top: 31px;
+    padding-bottom: 31px;
+    
+}
+.footer .section-body {
+    max-width: 1140px;
+    margin: auto;
+}
+.section-footer{
+    display: flex;
+    flex-direction: row;
+}
+.section-footer--block {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-right: 35px;
+}
+.section-footer--block:last-child {
+    align-items: flex-end;
+}
+.section-footer--block:last-child {
+    padding-right: 0px;  
+}
+.section-footer--block-social a {
+    display: inline-flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    width: 33px;
+    height: 33px;
+    background-color: #373737;
+    border-radius: 16.5px;
+}
+.section-footer--block-social a:hover {
+    background-color: #b28756;
+}
+.section-footer--block-social img {
+    height: 14px;
+}
+.section-footer--text {
+    font-size: 12px;
+    line-height: 22px;
+    color: #aeaeae;
+}
+.section-footer--block form {
+    display: flex;
+    flex-direction: column;
+    width: 350px;
+    height: 200px;
+    padding-top: 51px;
+    padding-left: 65px;
+    padding-right: 65px;
+    background-color: #373737;
+}
+.section-footer--block form input:not(.button) {
+    width:100%;
+    height:40px;
+    border: none;
+    border-bottom: 2px solid #aeaeae;
+    background-color: #373737;
+    outline:0;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 600;
+    color: #aeaeae;
+}
+.section-footer--block form .button {
+    margin-top: 28px;
 }
