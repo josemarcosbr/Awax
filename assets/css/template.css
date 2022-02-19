@@ -670,9 +670,6 @@ header {
 .section-premium .pointer.active {
     background-color: #b28756;
 }
-.section-premium button {
-
-}
 /* Some facts Section */
 
 .section-some-facts {
@@ -1066,12 +1063,6 @@ header {
     .section-team {
         max-width: 730px;
     }
-
-    /* Premium Section - tablet */
-
-    .section-premium .slidearea {
-    }
-
     /* Share Section - Tablet */
     .share-bg {
         padding: 0;
