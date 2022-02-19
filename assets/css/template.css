@@ -167,11 +167,11 @@ header {
     font-weight: 600;
 }
 .default .section-title {
-    font-size: 20px;
+    font-size: 35px;
     font-weight: 600;
 }
 .default .section-desc{
-    font-size: 12px;
+    font-size: 15px;
     color: #ccc;
     margin-top: 13px;
     margin-bottom: 40px;
